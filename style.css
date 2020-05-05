@@ -91,6 +91,7 @@ div#about{
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-size: 75px !important;
+    text-shadow: -1px 0 rgb(41, 5, 97), 0 1px rgb(41, 5, 97), 1px 0 rgb(41, 5, 97), 0 -1px rgb(41, 5, 97);
 }
 #intro h1::first-letter {
     font-size: 120%;
@@ -109,6 +110,7 @@ div#about{
 }
 #intro .fab{
     padding-right: 55px !important;
+    text-shadow: -1px 0 rgb(41, 5, 97), 0 1px rgb(41, 5, 97), 1px 0 rgb(41, 5, 97), 0 -1px rgb(41, 5, 97);
 }
 a.social{
     color: rgb(44, 241, 255);
@@ -118,6 +120,23 @@ a.social:hover{
     transition: .3s ease-in-out
 }
 /* About Section Styling */
-.col-6{
-    text-align: center;
+#about{
+    padding-top: 150px;
 }
+#about-pic{
+    text-align: center;
+    top: 0;
+    float: right;
+    width: ;
+    /* display: inline block; */
+}
+#about-text{
+    padding-left: 40px;
+    bottom: 0;
+    font-family: 'Ropa Sans', sans-serif;
+    color: rgb(41, 5, 97);
+    font-size: 20px;
+    /* display: inline block; */
+    float: left;
+}
+
