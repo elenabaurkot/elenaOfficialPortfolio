@@ -45,10 +45,15 @@ nav{
 .nav-links a{
     color: rgb(41, 5, 97);
 }
+.nav-links a:hover, .icons a:hover{
+    font-size: 50px;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
 .icons{
     color: rgb(41, 5, 97) !important;
-    padding-right: 9px;
-    padding-left: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 /* Navbar Media Queries */
@@ -98,15 +103,20 @@ div#about{
     color:  rgb(44, 241, 255);
 }
 #intro .subheading {
-    padding-left: 18%;
-    color:   rgb(44, 241, 255);;
+    padding-left: 15%;
+    color:   rgb(44, 241, 255);
     font-size: 70px;
 }
 #intro .fab{
-    padding-right: 15px !important;
+    padding-right: 55px !important;
 }
-
-
+a.social{
+    color: rgb(44, 241, 255);
+}
+a.social:hover{
+    font-size: 85px;
+    transition: .3s ease-in-out
+}
 /* About Section Styling */
 .col-6{
     text-align: center;
