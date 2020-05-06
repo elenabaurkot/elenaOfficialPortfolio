@@ -34,7 +34,15 @@ nav{
     letter-spacing: 4px;
     line-height: 60px;
     position: fixed;
-    padding-top: 12%;
+    padding-top: 7%;
+    overflow: scroll;
+}
+.img-profile{ 
+    max-width: 9.4rem;
+    max-height: 14rem;
+    border: .18rem solid rgb(41, 5, 97);
+    text-align: center;
+    margin: auto;
 }
 .nav-links{
     list-style: none;
@@ -121,27 +129,31 @@ a.social:hover{
 #about{
     padding-top: 70px;
     padding-bottom: 70px;
+    background-color: rgb(255, 245, 234);
 }
 #code-pic{
     width: 800px;
     height: 450px;
     float: right;
     top: 0;
+    padding-left: 20px;
     shape-outside: ellipse();
 }
 #about-header{
     padding-left: 75px;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: rgb(41, 5, 97);
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 45px;
     letter-spacing: 3px;
     padding-bottom: 10px;
+    text-transform: uppercase;
 }
 #about-text{
     padding-left: 40px;
     bottom: 0;
-    font-family: 'Dosis', sans-serif;
-    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     color: rgb(41, 5, 97);
     font-size: 24px;
     letter-spacing: 1px;
@@ -153,13 +165,16 @@ a.social:hover{
     padding-top: 70px;
     padding-bottom: 70px;
     background-color: rgb(41, 5, 97);
+    background: url('https://res.cloudinary.com/dsxuuory9/image/upload/v1588739055/portfolio/pro6_gdtkdx.jpg') no-repeat center center fixed; 
+    
 }
 #projects-header{
-    font-family: 'Oswald', sans-serif;
-    color: rgb(41, 5, 97);;
-    text-shadow: -3px 1px rgb(255, 238, 220), 1px 1px rgb(255, 238, 220), 1px 1px rgb(255, 238, 220), 1px -1px rgb(255, 238, 220);
-    font-size: 100px !important;
-    letter-spacing: 6px;
+    font-family: 'Oswald', sans-serif; 
+    color: rgb(41, 5, 97);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 75px !important;
+    text-shadow: -1px 0 #6a02c6, 0 1px #6a02c6, 1px 0 #6a02c6, 0 -1px #6a02c6;
     text-align: center;
 }
 .pro{
