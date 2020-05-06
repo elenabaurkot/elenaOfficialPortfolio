@@ -148,6 +148,7 @@ a.social:hover{
     letter-spacing: 3px;
     padding-bottom: 10px;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 #about-text, .skills-text{
     padding-left: 40px;
@@ -169,13 +170,14 @@ a.social:hover{
 }
 #projects-header, #contact-header{
     font-family: 'Oswald', sans-serif; 
-    color: rgb(44, 241, 255);
+    color: rgb(255, 245, 234);
     text-transform: uppercase;
     font-size: 55px;
     text-shadow: -1px 0 rgb(41, 5, 97), 0 1px rgb(41, 5, 97), 1px 0 rgb(41, 5, 97), 0 -1px rgb(41, 5, 97);
     padding-left: 30%;
     letter-spacing: 3px;
     font-weight: bolder;
+    text-decoration: underline;
 }
 .pro{
 
@@ -197,6 +199,20 @@ a.social:hover{
     background: url('https://res.cloudinary.com/dsxuuory9/image/upload/v1588318543/portfolio/portfolio_background_m4w3iy.jpg') no-repeat center center fixed; 
     background-size: cover;
 }
-
+#contact-info{
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif; 
+    color: rgb(255, 245, 234);
+    text-transform: uppercase;
+    font-size: 35px;
+    text-shadow: -1px 0 rgb(41, 5, 97), 0 1px rgb(41, 5, 97), 1px 0 rgb(41, 5, 97), 0 -1px rgb(41, 5, 97);
+    padding-top: 40px;
+    padding-left: 26%;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+#number{
+    padding-left: 110px;
+}
 
 /* resume styling */
