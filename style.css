@@ -89,7 +89,7 @@ section#about{
 
 
 /* Intro div Styling */
-#intro h1 {
+#intro h1{
     font-family: 'Oswald', sans-serif; 
     padding-top: 12%;
     padding-left: 7%;
@@ -126,7 +126,7 @@ a.social:hover{
     transition: .3s ease-in-out
 }
 /* About Section Styling */
-#about{
+#about, #skills{
     padding-top: 70px;
     padding-bottom: 70px;
     background-color: rgb(255, 245, 234);
@@ -144,7 +144,7 @@ a.social:hover{
     font-family: 'Oswald', sans-serif;
     color: rgb(41, 5, 97);
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 50px;
     letter-spacing: 3px;
     padding-bottom: 10px;
     text-transform: uppercase;
@@ -164,18 +164,18 @@ a.social:hover{
 #projects{
     padding-top: 70px;
     padding-bottom: 70px;
-    background-color: rgb(41, 5, 97);
-    background: url('https://res.cloudinary.com/dsxuuory9/image/upload/v1588739055/portfolio/pro6_gdtkdx.jpg') no-repeat center center fixed; 
-    
+    background: url('https://res.cloudinary.com/dsxuuory9/image/upload/v1588318543/portfolio/portfolio_background_m4w3iy.jpg') no-repeat center center fixed; 
+    background-size: cover;
 }
-#projects-header{
+#projects-header, #contact-header{
     font-family: 'Oswald', sans-serif; 
-    color: rgb(41, 5, 97);
+    color: rgb(44, 241, 255);
     text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-size: 75px !important;
-    text-shadow: -1px 0 #6a02c6, 0 1px #6a02c6, 1px 0 #6a02c6, 0 -1px #6a02c6;
-    text-align: center;
+    font-size: 55px;
+    text-shadow: -1px 0 rgb(41, 5, 97), 0 1px rgb(41, 5, 97), 1px 0 rgb(41, 5, 97), 0 -1px rgb(41, 5, 97);
+    padding-left: 30%;
+    letter-spacing: 3px;
+    font-weight: bolder;
 }
 .pro{
 
@@ -183,3 +183,19 @@ a.social:hover{
 .pro1{
 
 }
+
+/* skills styling */
+#skills p{
+    padding-left: 40px;
+}
+
+/* contact styling */
+#contact{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: url('https://res.cloudinary.com/dsxuuory9/image/upload/v1588318543/portfolio/portfolio_background_m4w3iy.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+
+/* resume styling */
