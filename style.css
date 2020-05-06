@@ -133,6 +133,7 @@ a.social:hover{
     padding-left: 75px;
     font-family: 'Dosis', sans-serif;
     color: rgb(41, 5, 97);
+    font-weight: bold;
     letter-spacing: 3px;
     padding-bottom: 10px;
 }
@@ -152,4 +153,18 @@ a.social:hover{
     padding-top: 70px;
     padding-bottom: 70px;
     background-color: rgb(41, 5, 97);
+}
+#projects-header{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(41, 5, 97);;
+    text-shadow: -3px 1px rgb(255, 238, 220), 1px 1px rgb(255, 238, 220), 1px 1px rgb(255, 238, 220), 1px -1px rgb(255, 238, 220);
+    font-size: 100px !important;
+    letter-spacing: 6px;
+    text-align: center;
+}
+.pro{
+
+}
+.pro1{
+
 }
