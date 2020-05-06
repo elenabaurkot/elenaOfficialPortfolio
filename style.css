@@ -22,7 +22,7 @@ body{
 
 /* Navbar Full Screen Styling */
 nav{
-    background-color: rgb(254, 248, 242);
+    background-color: rgb(255, 245, 234);
     display: flex;
     width: 250px;
     height: 100% !important;
@@ -68,7 +68,6 @@ div {
 
 /* Background Scroll Styling */
 div#intro{
-    padding-bottom: 150px;
     height: 100%;
     background: url('https://res.cloudinary.com/dsxuuory9/image/upload/v1588318543/portfolio/portfolio_background_m4w3iy.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -76,8 +75,7 @@ div#intro{
     -o-background-size: cover;
     background-size: cover;
 }
-div#about{
-    /* background-image: url("http://i.imgur.com/VWYl1EC.jpg"); */
+section#about{
     background-size: cover;
 }
 
@@ -121,22 +119,37 @@ a.social:hover{
 }
 /* About Section Styling */
 #about{
-    padding-top: 150px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
-#about-pic{
-    text-align: center;
-    top: 0;
+#code-pic{
+    width: 800px;
+    height: 450px;
     float: right;
-    width: ;
-    /* display: inline block; */
+    top: 0;
+    shape-outside: ellipse();
+}
+#about-header{
+    padding-left: 75px;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(41, 5, 97);
+    letter-spacing: 3px;
+    padding-bottom: 10px;
 }
 #about-text{
     padding-left: 40px;
     bottom: 0;
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
     color: rgb(41, 5, 97);
-    font-size: 20px;
-    /* display: inline block; */
-    float: left;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding-bottom: 70px;
 }
 
+/* Project Section Styling */
+#projects{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgb(41, 5, 97);
+}
