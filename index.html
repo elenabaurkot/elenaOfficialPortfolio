@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&family=Oswald&family=Dosis&family=Roboto&display=swap" rel="stylesheet">
   <!-- bootstrap cdn -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="css/smoothness/jquery-ui-1.9.0.custom.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Elena Baurkot</title>
 </head>
@@ -30,7 +31,14 @@
         <li><a href="#skills" class="link">Skills</a></li>
         <li><a href="#contact" class="link">Contact</a></li>
         <!-- MAKE RESUME A MODAL -->
-        <li><a href="#" class="link">Resume</a></li>
+        <li>
+          <a href="#" id="#trigger" class="link">Resume</a>
+          <div id="dialog" style="display:none">
+            <div>
+              <iframe src="https://drive.google.com/file/d/10nBe7DkF8ahhPvXgx36dcqfPPafdko9t/preview" width="640" height="480"></iframe>
+            </div>
+        </div> 
+        </li>
       </ul>   
       <span class="icons">
         <a href="https://github.com/elenabaurkot" target="_blank" class="link"><i class="icons fab fa-github"></i></a>
@@ -66,7 +74,13 @@
     <section id="projects">
       <h1 id="projects-header">Projects</h1>
         <div class="pro">
-          
+        fix readmes 
+          *flipcards
+          *yellowchat
+          *weatherapp (small fix on double city)
+          *DayPlanner 
+          *code quiz
+          *employee tracker react version 
         </div>
         <div class="pro1">
         </div>
@@ -110,5 +124,7 @@
     </section>
     <!-- resume as modal? -->
   </div>
+  
+  <script src="app.js"></script>
 </body>
 </html>

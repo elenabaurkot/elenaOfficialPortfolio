@@ -1,3 +1,9 @@
+$(document).ready(function() {
+  $('#trigger').click(function(){
+    $("#dialog").dialog();
+  }); 
+});
+
 const navSlide = () => {
   const burger = document.querySelector('.burger');
   const nav = document.querySelector('.nav-links');
