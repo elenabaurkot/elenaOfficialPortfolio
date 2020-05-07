@@ -418,7 +418,7 @@ a#linked:hover, a#git:hover, #contact-email:hover{
     padding: 20px;
     border: 1px solid #888;
     width: 85%; /* Could be more or less, depending on screen size */
-    height: 90%;
+    max-height: 90%;
     display: block !important;
     justify-content: center;
     text-align: center;
