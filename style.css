@@ -86,13 +86,17 @@ div#intro{
 section#about{
     background-size: cover;
 }
-
+section{
+    background-size: cover;
+    min-height: 100%;
+    max-height: fit-content;
+}
 
 /* Intro div Styling */
 #intro h1{
     font-family: 'Oswald', sans-serif; 
-    padding-top: 12%;
-    padding-left: 7%;
+    padding-top: 15%;
+    padding-left: 12%;
     color: rgb(44, 241, 255);
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -130,6 +134,7 @@ a.social:hover{
     padding-top: 70px;
     padding-bottom: 70px;
     background-color: rgb(255, 245, 234);
+    padding-right: 45px;
 }
 #code-pic{
     width: 800px;
@@ -146,9 +151,8 @@ a.social:hover{
     font-weight: bolder;
     font-size: 50px;
     letter-spacing: 3px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     text-transform: uppercase;
-    text-decoration: underline;
 }
 #about-text, .skills-text{
     padding-left: 40px;
@@ -160,7 +164,10 @@ a.social:hover{
     letter-spacing: 1px;
     padding-bottom: 70px;
 }
-
+.skills-text{
+    font-size: 30px !important;
+    line-height: 65px;
+}
 /* Project Section Styling */
 #projects{
     padding-top: 70px;
@@ -174,10 +181,9 @@ a.social:hover{
     text-transform: uppercase;
     font-size: 55px;
     text-shadow: -1px 0 rgb(41, 5, 97), 0 1px rgb(41, 5, 97), 1px 0 rgb(41, 5, 97), 0 -1px rgb(41, 5, 97);
-    padding-left: 30%;
+    padding-left: 25%;
     letter-spacing: 3px;
     font-weight: bolder;
-    text-decoration: underline;
 }
 .pro{
 
@@ -189,13 +195,14 @@ a.social:hover{
 /* skills styling */
 #skills{
     padding-left: 40px;
+    padding-bottom: 200px;
 }
 
 
 /* contact styling */
 #contact{
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 95px;
+    padding-bottom: 280px;
     background: url('https://res.cloudinary.com/dsxuuory9/image/upload/v1588318543/portfolio/portfolio_background_m4w3iy.jpg') no-repeat center center fixed; 
     background-size: cover;
 }
@@ -203,16 +210,43 @@ a.social:hover{
     list-style-type: none;
     font-family: 'Oswald', sans-serif; 
     color: rgb(255, 245, 234);
-    text-transform: uppercase;
-    font-size: 35px;
-    text-shadow: -1px 0 rgb(41, 5, 97), 0 1px rgb(41, 5, 97), 1px 0 rgb(41, 5, 97), 0 -1px rgb(41, 5, 97);
-    padding-top: 40px;
-    padding-left: 26%;
+    /* text-transform: uppercase; */
+    font-size: 40px;
+    text-shadow: -3px 0 rgb(41, 5, 97), 0 1px rgb(41, 5, 97), 1px 0 rgb(41, 5, 97), 0 -1px rgb(41, 5, 97);
+    padding-top: 55px;
     letter-spacing: 3px;
-    font-weight: bolder;
+    text-align: center;
+    line-height: 60px;
 }
 #number{
-    padding-left: 110px;
+    font-size: 38px;
 }
-
+#contact-email a{
+    color: rgb(255, 245, 234) !important;
+    text-decoration: underline;
+    text-transform: capitalize !important;
+}
+#com{
+    text-transform: lowercase !important;
+}
+a#linked, a#git, #bar{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(255, 245, 234);
+    display: inline;
+    text-decoration: underline;
+    font-size: 38px;
+}
+#bar{
+    font-size: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none !important;
+}
+a#linked:hover, a#git:hover, #contact-email:hover{
+    font-size: 50px;
+    transition: all .3s ease-in-out;
+    text-decoration: underline;
+    color: rgb(255, 245, 234) !important;
+}
 /* resume styling */
