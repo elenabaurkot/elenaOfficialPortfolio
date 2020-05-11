@@ -439,6 +439,8 @@ a.social:hover{
     padding: 10px;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(41, 5, 97);
+    color: rgb(255, 245, 234);
+    text-decoration: none;
     font-size: 22px;
     letter-spacing: 1px;
     border-radius: 10px;
