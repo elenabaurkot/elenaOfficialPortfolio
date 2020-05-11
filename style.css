@@ -366,6 +366,7 @@ a.social:hover{
     width: 320px;
     height: 380px;
     border: 5px solid rgb(235, 221, 207);
+    transition: all .3s ease-in-out;
 }
 .projPic{
     width: 100%;
@@ -434,6 +435,25 @@ a.social:hover{
     font-size: 22px;
     letter-spacing: 1px;
 }
+.proj-button{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(41, 5, 97);
+    font-size: 22px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    width: 150px;
+    height: 55px;
+}
+.proj-button a{
+    text-decoration: none;
+    color: rgb(255, 245, 234);
+}
+.proj-button:hover{
+    width: 160px;
+    height: 60px;
+    transition: .3s ease-in-out;
+}
 .proj-close {
     color: rgb(255, 245, 234);
     float: right !important;
@@ -446,6 +466,7 @@ a.social:hover{
     text-decoration: none;
     cursor: pointer;
     font-size: 50px;
+    transition: all .3s ease-in-out;
   }
 
 /* skills styling */
