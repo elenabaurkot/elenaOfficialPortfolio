@@ -331,13 +331,38 @@ a.social:hover{
     letter-spacing: 3px;
     font-weight: bolder;
 }
+.projRow{
+    margin-left: 5%;
+    margin-right:5%;
+    margin-top: 40px;
+    text-align: center;
+}
 .pro{
-
+    width: 300px;
+    height: 360px;
+    background-color: rgb(255, 245, 234, .95);
+    border: 2px solid rgb(41, 5, 97);
+    border-radius: 8px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
-.pro1{
-
+.projPic{
+    width: 296px;
+    height: 280px;
+    border-bottom: 2px solid rgb(41, 5, 97);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
-
+.projText{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: rgb(41, 5, 97);
+    font-size: 27px;
+    letter-spacing: 4px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+}
 /* skills styling */
 #skills{
     padding-left: 40px;
