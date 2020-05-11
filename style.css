@@ -192,6 +192,16 @@ nav a:hover {
         opacity: 1;
         width: 100%;
     }
+    #contact-info{
+        font-size: 32px !important;
+        line-height: 40px;
+    }
+    #number{
+        font-size: 30px !important;
+    }
+    a#linked, a#git, #bar{
+        font-size: 32px !important;
+    }
 }
 
 @keyframes navLinkFade{
@@ -391,7 +401,7 @@ a.social:hover{
     line-height: 60px;
 }
 #number{
-    font-size: 38px !important;
+    font-size: 38px;
 }
 #contact-email a{
     color: rgb(255, 245, 234) !important;
