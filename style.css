@@ -346,6 +346,9 @@ a.social:hover{
     margin-right:auto;
     margin-top: 40px;
     text-align: center;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .pro{
     width: 300px;
@@ -353,12 +356,19 @@ a.social:hover{
     background-color: rgb(255, 245, 234, .95);
     border: 2px solid rgb(41, 5, 97);
     border-radius: 8px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 30px;
+}
+.projMod{
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 40px;
+}
+.pro:hover{
+    width: 320px;
+    height: 380px;
+    border: 5px solid rgb(235, 221, 207);
 }
 .projPic{
-    width: 296px;
+    width: 100%;
     height: 280px;
     border-bottom: 2px solid rgb(41, 5, 97);
     border-top-left-radius: 8px;
@@ -374,6 +384,70 @@ a.social:hover{
     justify-content: center;
     padding-top: 15px;
 }
+.proModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 11; /* Sit on top */
+    left: auto;
+    right: auto;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  .proModal-content {
+    background-color: rgb(255, 245, 234);
+    margin-top: 8% !important;
+    margin-left: 23%;
+    border: 1px solid rgb(41, 5, 97);
+    width: 470px;
+    height: 550px;
+    border-radius: 10px;
+  }
+  .projMod:hover{
+    text-decoration: none;
+ }
+  .modal-header{
+    background-color: rgb(41, 5, 97);
+    color: rgb(255, 245, 234);
+    width: 100%;
+    height: 70px;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 35px !important;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.proj-title{
+    padding-left: 100px;
+}
+.proj-title-long{
+    padding-left: 35px;
+}
+.proj-info{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(41, 5, 97);
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.proj-close {
+    color: rgb(255, 245, 234);
+    float: right !important;
+    padding-right: 5%;
+    font-size: 45px;
+    font-weight: bold;
+  }
+.proj-close:hover,
+.proj-close:focus {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 50px;
+  }
+
 /* skills styling */
 #skills{
     padding-left: 40px;
@@ -459,6 +533,13 @@ a#linked:hover, a#git:hover, #contact-email:hover{
     justify-content: center;
     text-align: center;
   }
+  .modal-title{
+    padding-bottom: 5px;
+    padding-left: 15%;
+    float: left;
+    text-transform: uppercase;
+    display: inline;
+}
   .close {
     color: rgb(159, 156, 156);
     float: right;
@@ -478,10 +559,4 @@ a#linked:hover, a#git:hover, #contact-email:hover{
       width: 90%;
       justify-content: center;
   }
-  .modal-title{
-      padding-bottom: 5px;
-      padding-left: 15%;
-      float: left;
-      text-transform: uppercase;
-      display: inline;
-  }
+  
