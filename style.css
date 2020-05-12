@@ -292,6 +292,10 @@ a.social:hover{
     background-color: rgb(255, 245, 234);
     padding-right: 45px;
 }
+#about{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
 #code-pic{
     width: 800px;
     height: 450px;
@@ -347,8 +351,8 @@ a.social:hover{
     margin-top: 40px;
     text-align: center;
     justify-content: center;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 .pro{
     width: 300px;
