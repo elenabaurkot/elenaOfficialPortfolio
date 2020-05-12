@@ -50,7 +50,7 @@ closeOut1.onclick = function() {
   projModal1.style.display = "none";
 }
 
-// Weather Dashboard Modal
+// Book Search Modal
 var projModal2 = document.getElementsByClassName("proModal")[2];
 var proBtn2 = document.getElementsByClassName("proBtn")[2];
 // When the user clicks on the button, open the modal
@@ -64,7 +64,7 @@ closeOut2.onclick = function() {
   projModal2.style.display = "none";
 }
 
-// Day Planner Modal
+// Weather Dashboard Modal
 var projModal3 = document.getElementsByClassName("proModal")[3];
 var proBtn3 = document.getElementsByClassName("proBtn")[3];
 // When the user clicks on the button, open the modal
@@ -78,7 +78,7 @@ closeOut3.onclick = function() {
   projModal3.style.display = "none";
 }
 
-// Password Generator Modal
+// Day Planner Modal
 var projModal4 = document.getElementsByClassName("proModal")[4];
 var proBtn4 = document.getElementsByClassName("proBtn")[4];
 // When the user clicks on the button, open the modal
@@ -92,7 +92,7 @@ closeOut4.onclick = function() {
   projModal4.style.display = "none";
 }
 
-// Code Quiz Modal
+// Password Generator Modal
 var projModal5 = document.getElementsByClassName("proModal")[5];
 var proBtn5 = document.getElementsByClassName("proBtn")[5];
 // When the user clicks on the button, open the modal
