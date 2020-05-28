@@ -487,8 +487,17 @@ a.social:hover{
     padding-left: 40px;
     padding-bottom: 200px;
 }
-
-
+.skills-pic{
+    margin-right: 25px;
+}
+#jquery{
+    height: 52px;
+    width: 52px;
+}
+#express{
+    height: 48px;
+    width: 48px;
+}
 /* contact styling */
 #contact{
     padding-top: 95px;
